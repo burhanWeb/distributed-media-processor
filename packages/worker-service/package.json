@@ -1,0 +1,13 @@
+﻿{
+  "name": "worker-service",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.0",
+    "@types/node": "^20.8.0",
+    "ts-node": "^10.9.1"
+  }
+}

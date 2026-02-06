@@ -1,0 +1,14 @@
+
+{
+  "name": "media-processing-service",
+  "version": "1.0.0",
+  "description": "Distributed Media Processing SaaS",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces"
+  }
+}
